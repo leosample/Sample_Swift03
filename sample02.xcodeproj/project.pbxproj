@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0BD8211F676B2F00924589 /* loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BD8201F676B2F00924589 /* loop.swift */; };
+		1D0BD8231F67745900924589 /* switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BD8221F67745900924589 /* switch.swift */; };
+		1D7864411F6624E5005768C3 /* mytuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7864401F6624E5005768C3 /* mytuple.swift */; };
+		1D7864431F662917005768C3 /* myset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7864421F662917005768C3 /* myset.swift */; };
+		1D7864451F663530005768C3 /* mydic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7864441F663530005768C3 /* mydic.swift */; };
 		1DDFE9881F5FDCE8008FF525 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFE9871F5FDCE8008FF525 /* main.swift */; };
+		1DDFE98F1F5FDE35008FF525 /* mysample01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFE98E1F5FDE35008FF525 /* mysample01.swift */; };
+		1DDFE9911F5FE1C8008FF525 /* mysample02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFE9901F5FE1C8008FF525 /* mysample02.swift */; };
+		1DDFE9931F60EF0B008FF525 /* mysample03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDFE9921F60EF0B008FF525 /* mysample03.swift */; };
+		1DFA6A421F6224E7004FF4DF /* poker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA6A411F6224E7004FF4DF /* poker.swift */; };
+		1DFA6A441F623EE6004FF4DF /* mystr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFA6A431F623EE6004FF4DF /* mystr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D0BD8201F676B2F00924589 /* loop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loop.swift; sourceTree = "<group>"; };
+		1D0BD8221F67745900924589 /* switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = switch.swift; sourceTree = "<group>"; };
+		1D7864401F6624E5005768C3 /* mytuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mytuple.swift; sourceTree = "<group>"; };
+		1D7864421F662917005768C3 /* myset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myset.swift; sourceTree = "<group>"; };
+		1D7864441F663530005768C3 /* mydic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mydic.swift; sourceTree = "<group>"; };
 		1DDFE9841F5FDCE8008FF525 /* sample02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sample02; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDFE9871F5FDCE8008FF525 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1DDFE98E1F5FDE35008FF525 /* mysample01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mysample01.swift; sourceTree = "<group>"; };
+		1DDFE9901F5FE1C8008FF525 /* mysample02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mysample02.swift; sourceTree = "<group>"; };
+		1DDFE9921F60EF0B008FF525 /* mysample03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mysample03.swift; sourceTree = "<group>"; };
+		1DFA6A411F6224E7004FF4DF /* poker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = poker.swift; sourceTree = "<group>"; };
+		1DFA6A431F623EE6004FF4DF /* mystr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mystr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,16 @@
 			isa = PBXGroup;
 			children = (
 				1DDFE9871F5FDCE8008FF525 /* main.swift */,
+				1DDFE98E1F5FDE35008FF525 /* mysample01.swift */,
+				1DDFE9901F5FE1C8008FF525 /* mysample02.swift */,
+				1DDFE9921F60EF0B008FF525 /* mysample03.swift */,
+				1DFA6A411F6224E7004FF4DF /* poker.swift */,
+				1DFA6A431F623EE6004FF4DF /* mystr.swift */,
+				1D7864401F6624E5005768C3 /* mytuple.swift */,
+				1D7864421F662917005768C3 /* myset.swift */,
+				1D7864441F663530005768C3 /* mydic.swift */,
+				1D0BD8201F676B2F00924589 /* loop.swift */,
+				1D0BD8221F67745900924589 /* switch.swift */,
 			);
 			path = sample02;
 			sourceTree = "<group>";
@@ -121,7 +151,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7864431F662917005768C3 /* myset.swift in Sources */,
+				1DDFE98F1F5FDE35008FF525 /* mysample01.swift in Sources */,
+				1D7864411F6624E5005768C3 /* mytuple.swift in Sources */,
+				1DDFE9911F5FE1C8008FF525 /* mysample02.swift in Sources */,
+				1DDFE9931F60EF0B008FF525 /* mysample03.swift in Sources */,
 				1DDFE9881F5FDCE8008FF525 /* main.swift in Sources */,
+				1DFA6A421F6224E7004FF4DF /* poker.swift in Sources */,
+				1D0BD8211F676B2F00924589 /* loop.swift in Sources */,
+				1D0BD8231F67745900924589 /* switch.swift in Sources */,
+				1DFA6A441F623EE6004FF4DF /* mystr.swift in Sources */,
+				1D7864451F663530005768C3 /* mydic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +295,7 @@
 				1DDFE98D1F5FDCE8008FF525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
